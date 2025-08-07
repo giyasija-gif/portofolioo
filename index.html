@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giyasah Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Gysha</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portof</a>
+      <a href="#blog">Blog</a>
+      <a href="#skill">Skill</a>
+    </nav>
+    <div class="contact-btn">Contact</div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="image-container">
+      <img src="/home/img/profile.png" alt="Giyasah" class="profile" />
+    </div>
+    <div class="intro">
+      <h1>Hi, I am <span>Giyasah</span></h1>
+      <p>
+        I am a frontend web developer. I can provide clean code and pixel perfect design.<br />
+        I also make websites more & more interactive with web animations.
+      </p>
+      <a href="#about" class="read-more">Read more</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+   <section>
+      <h1>let's talk to about me</h1>
+      <div class="content-wrapper">
+        <div class="text-content">
+          <p class="about-me">About Me</p>
+          <h2>Awarded Web Developer</h2>
+          <p class="description">
+            I'm a web developer focused on developing modern web applications using a full-stack approach. 
+          In my development process, I prioritize clean code structure, optimal performance, 
+          and an intuitive and efficient user experience.</p>
+          <p>For the frontend, I use React.js, a modern JavaScript library that's
+          very powerful and efficient for building interactive and responsive 
+          user interfaces. With React, I can dynamically manage UI components, 
+          implement state management using tools like Redux or the Context API, 
+          and seamlessly integrate external APIs. Using React also allows 
+          me to build fast and lightweight SPAs (Single Page Applications), 
+          providing users with a seamless browsing experience without the need to reload the page</p>
+        </div>
+        <div class="image-wrapper">
+          <img class="main-image" src="/home/img/about.png" alt="Woman wearing a black headscarf and navy blue shirt pointing upwards with both hands, smiling gently" />
+          <div class="bg-block"></div>
+            <line x1="10" y1="70" x2="20" y2="30"></line>
+            <line x1="30" y1="70" x2="40" y2="20"></line>
+            <line x1="50" y1="70" x2="70" y2="10"></line>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section">
+    <h2>My Portofolio</h2>
+    <div class="portfolio-grid">
+      <img src="/home/img/download (1).jpeg">
+      <img src="/home/img/download (2).jpeg">
+      <img src="/home/img/download (3).jpeg">
+      <img src="/home/img/download.jpeg">
+      <img src="/home/img/IT_Service.jpg">
+      <img src="/home/img/abt.jpg">
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog-section">
+    <h2>Blog</h2>
+    <div class="blog-cards">
+      <div class="card">
+        <img src="/home/img/image2-7.png">
+        <h4>Web Development / 29.02.2025</h4>
+        <p>Web development involves building and maintaining websites. It includes everything from coding to layout and design.</p>
+      </div>
+      <div class="card">
+        <img src="/home/img/images.jpeg">
+        <h4>Front End / 29.07.2025</h4>
+        <p>Front-end development focuses on the visual parts of a website that users interact with directly.</p>
+      </div>
+      <div class="card">
+        <img src="/home/img/jasa-pembuatan-aplikasi-mobile.jpg">
+        <h4>Front End / 29.11.2025</h4>
+        <p>Back-end development handles server-side logic and database interactions that power web applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill Section -->
+  <section id="skill" class="skill-section">
+    <h2>My Skill</h2>
+    <div class="skill-content">
+      <div class="skill-text">
+        <h3>Early Milestones in Design & Web Development</h3>
+        <br>
+        <p>We recently completed the UI/UX design for our first website project. While still in the early stages, 
+          this is a significant step in building our portfolio and expanding our team's capabilities in web development.</p>
+          <p>I have strong skills in HTML and CSS, allowing me to build clean, responsive, and well-structured web interfaces. 
+            On the backend, I use Laravel to develop secure, scalable, and efficient web applications with features like authentication, 
+            CRUD systems, and RESTful APIs. My design knowledge, combined with tools like Figma, helps me create user-friendly and 
+            visually appealing layouts that focus on both aesthetics and functionality. 
+            I continuously improve my skills by learning modern web practices, 
+            including UI/UX principles, advanced CSS techniques, and integration with external APIs.</p>
+      </div>
+      <div class="skill-chart">
+        <canvas id="skillChart" width="380" height="380"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+   <main>
+    <h1>Get in now</h1>
+    <div class="container">
+      <div class="info">
+        <p class="intro">Get in touch !</p>
+        <h2>Contact us for a quote, help<br />to join the team</h2>
+        <div class="section">
+          <p>Mail</p>
+          <p>giyasah.wan@gmail.com</p>
+        </div>
+        <div class="section">
+          <p>Address</p>
+          <p>bogor kota,perum yasmin</p>
+        </div>
+        <div class="section">
+          <p>Phone</p>
+          <p>0123456789</p>
+        </div>
+      </div>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="message" placeholder="Message" required />
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+  </main>
+  <br>
+  <br>
+  <!-- Sponsor Card -->
+  <section class="sponsor-section">
+      <img src="/home/img/Screenshot 2025-08-06 234635.png" alt="">
+    </div>
+  </section>
+  <br>
+  <br>
+  <!-- Footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="/home/img/logo wan.webp" alt="Logo Perusahaan" />
+      <p>Development by <strong>Giya</strong></p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Portof</a></li>
+        <li><a href="#services">Blog</a></li>
+        <li><a href="#services">Skill</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><img src="/home/img/icon_fb-removebg-preview.png" alt="Facebook" /></a>
+        <a href="#"><img src="/home/img/icon_ig-removebg-preview.png" alt="Instagram" /></a>
+        <a href="#"><img src="/home/img/icon_x-removebg-preview.png" alt="Twitter" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
